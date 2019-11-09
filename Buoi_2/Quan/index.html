@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      #form_1 {
+        padding: 20px 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="form_1" action="#" method="POST">
+      <!-- input text -->
+      First name:
+      <input
+        type="text"
+        name="firstname"
+        value=""
+        placeholder="This is first"
+      />
+      <br />
+      Last name:
+      <input type="text" name="lastname" value="Mouse" />
+      <br /><br />
+
+      <!-- radio  -->
+      <input type="radio" name="gender" value="1" /> Male<br />
+      <input type="radio" name="gender" value="2" checked /> Female<br />
+      <input type="radio" name="gender" value="0" /> Other
+      <br />
+
+      <!-- password -->
+      User name:<input type="text" name="userid" />
+      <br />
+      User password:<input type="password" name="psw" /><br />
+
+      <!-- check box -->
+      <input type="checkbox" name="vehicle1" value="Bike" checked /> I have a
+      bike<br />
+      <input type="checkbox" name="vehicle2" value="Game" checked /> I have a
+      game<br />
+      <input type="checkbox" name="vehicle3" value="Gym" /> I have a gym<br />
+      <input type="checkbox" name="vehicle4" value="Car" /> I have a car <br />
+
+      <!-- date  -->
+      Enter a date before 1980-01-01:
+      <input type="date" name="bday" value="2013-01-08" /><br />
+      Enter a date after 2000-01-01:
+      <input type="date" name="bday" min="2000-01-02" /><br />
+
+      <input type="email" name="email" /><br />
+      <input type="number" name="email" value="akjsd" /><br />
+
+      <textarea name="content" cols="30" rows="10"> </textarea>
+
+      <input type="reset" /><br />
+
+      <input type="submit" value="Submit" /><br />
+
+      <button type="submit">Submit 2</button>
+    </form>
+  </body>
+</html>
